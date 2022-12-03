@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.face1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(253, 253, 0, 0.973);
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+}
+.face1:hover{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(243, 181, 9, 0.973);
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 5px 10px #888888;
+}
+.eye1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    top: 50px;
+    left: 30px;
+}
+
+.eye11 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    top: 50px;
+    right: 30px;
+}
+
+.mouth1 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px 0px 90px 90px ;
+    top: 120px;
+    left: 50px;
+}
+/* Face 2 */
+.eye2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    top: 50px;
+    left: 30px;
+}
+
+.eye22 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    top: 50px;
+    right: 30px;
+}
+
+.mouth2 {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px 0px 0px 0px;
+    top: 120px;
+    left: 50px;
+}
+/* Face 3 */
+.eye3 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    top: 50px;
+    left: 30px;
+}
+
+.eye33 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    top: 50px;
+    right: 30px;
+    
+}
+
+.mouth3 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(3, 3, 3);
+    border-radius: 40px 40px 40px 40px;
+    top: 105px;
+    left: 60px;
+}
+/* Face4 */
+
+.eye4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    top: 120px;
+    left: 30px;
+}
+
+.eye44 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    top: 120px;
+    right: 30px;
+}
+
+.mouth4 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 90px 90px 0px 0px ;
+    top: 40px;
+    left: 50px;
+}
